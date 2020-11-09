@@ -4,7 +4,7 @@
 -- IT IS VERY VERY IMPORTANT THIS IS NEVER RUN AGAINST PRODUCTION DATABASES
 -- This script takes around 3-4 hours to complete currently.
 
-UPDATE phone_numbers set phone=’02081231234’;
+UPDATE phone_numbers set phone='02081231234';
 TRUNCATE member_actions_data;
 TRUNCATE  member_external_ids;
 TRUNCATE active_record_audits;
